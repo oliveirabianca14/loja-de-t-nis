@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleStyle - Tênis Premium</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <!-- Cabeçalho com logo e menu de navegação -->
+    <header>
+        <h1>SoleStyle</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <style>/* Estilos gerais da página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6ff; /* Fundo roxo claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #4b0082; /* Roxo escuro */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d8bfd8; /* Roxo claro para hover */
+}
+
+/* Estilo da seção banner */
+.banner {
+    background-color: #9370db; /* Roxo médio */
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+.banner p {
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da seção de produtos */
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+.produto {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.produto h3 {
+    margin: 0.5rem 0;
+    color: #4b0082;
+}
+
+.produto p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #6a0dad;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        margin-top: 1rem;
+    }
+    
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+}</style>
+    </header>
+
+    <!-- Seção principal com banner e texto promocional -->
+    <section class="banner">
+        <h2>Eleve seu estilo com SoleStyle</h2>
+        <p>Na SoleStyle, acreditamos que um bom par de tênis pode transformar não apenas seu visual, mas também sua confiança. Nossa coleção premium combina design inovador, conforto excepcional e qualidade duradoura. Seja para o dia a dia, esportes ou ocasiões especiais, temos o par perfeito para você. Descubra a diferença que um tênis de verdade pode fazer na sua vida. Frete grátis para todo o Brasil em compras acima de R$ 300,00. Novos lançamentos toda semana!</p>
+        <img src="banner.jpg" alt="Tênis SoleStyle">
+    
+    </section>
+
+    <!-- Seção de produtos em destaque -->
+    <section class="produtos">
+        <div class="produto">
+            <img src="modelo1.jpeg" alt="Tênis Modelo X">
+            <h3>Velocity Pro</h3>
+            <p>R$ 399,90</p>
+        </div>
+        <div class="produto">
+            <img src="modelo2.jpeg" alt="Tênis Modelo Y">
+            <h3>Urban Flex</h3>
+            <p>R$ 349,90</p>
+        </div>
+        <div class="produto">
+            <img src="modelo 3.jpeg" alt="Tênis Modelo Z">
+            <h3>Cloud Step</h3>
+            <p>R$ 459,90</p>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2023 SoleStyle. Todos os direitos reservados.</p>
+    </footer>
+  
+</body>
+</html>
